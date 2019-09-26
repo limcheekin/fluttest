@@ -11,7 +11,7 @@ class InitialUserState extends UserState {}
 
 class UserLoading extends UserState {}
 
-// Only the WeatherLoaded event needs to contain data
+// Only the UserLoaded event needs to contain data
 class UserLoaded extends UserState {
   final User user;
 
