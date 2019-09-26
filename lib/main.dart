@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         title: 'Fluttest',
         theme: ThemeData(
           brightness: Brightness.light,
-          primarySwatch: Colors.orange,
+          primarySwatch: Colors.blue,
           textTheme: TextTheme(button: TextStyle(color: Colors.white)),
         ),
         onGenerateRoute: Router.generateRoute,
